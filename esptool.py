@@ -506,7 +506,7 @@ def main():
     parser_write_flash.add_argument('--flash_mode', '-fm', help='SPI Flash mode',
                                     choices=['qio', 'qout', 'dio', 'dout'], default='qio')
     parser_write_flash.add_argument('--flash_size', '-fs', help='SPI Flash size in Mbit',
-                                    choices=['4m', '2m', '8m', '16m', '32m', '16m-c1', '32m-c1', '32m-c2'], default='4m')
+                                    choices=['4m', '2m', '8m', '16m', '32m', '16m-c1', '32m-c1', '32m-c2'], default='32m')
 
     subparsers.add_parser(
         'run',
